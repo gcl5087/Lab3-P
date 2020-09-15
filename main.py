@@ -16,7 +16,7 @@ def print_n(s, n):
   if n == 0:
     return 0
   else:
-    print(f"{s} \n")
+    print(f"{s}")
     return print_n(s,n-1)
 
 def run():
