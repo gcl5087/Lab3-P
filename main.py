@@ -13,13 +13,9 @@ def sum_n(n):
   
 
 def print_n(s, n):
-  sum_n(n)
-  if n > 0 :
-    print(f"{s}")
-    n = n -1 
-    print_n(s,n)
-  return 0
-
+  if n > 0:
+    print(s)
+    return print_n(s,n-1)
 
 def run():
   getN = input("Enter an int: ")
