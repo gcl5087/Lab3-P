@@ -17,7 +17,7 @@ def print_n(s, n):
     return 0
   else:
     print(f"{s}")
-    return print_n(s,n-1)
+    print_n(s,n-1)
 
 def run():
   getN = input("Enter an int: ")
