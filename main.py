@@ -13,8 +13,8 @@ def sum_n(n):
   
 
 def print_n(s, n):
-  if n == 0:
-    return 0
+  if n <= 0:
+    pass
   else:
     print(f"{s}")
     print_n(s,n-1)
