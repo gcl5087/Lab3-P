@@ -13,9 +13,7 @@ def sum_n(n):
   
 
 def print_n(s, n):
-  if n==0:
-    print(s)
-  else:
+  if n > 0:
     print(s)
     print_n(s,n-1)
 
